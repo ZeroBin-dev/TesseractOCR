@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    enabled: true
+    cache: true
+    prefix: classpath:templates/
+    suffix: .html
+    check-template-location: true
+
+server:
+  port: 33000
+  servlet:
+    encoding:
+      charset: UTF-8
